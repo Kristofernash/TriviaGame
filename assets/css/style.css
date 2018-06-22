@@ -1,0 +1,11 @@
+body{
+
+font-family: 'Lato',sans-serif;
+
+}
+
+#number_correct {
+
+    visibility: hidden;
+
+}

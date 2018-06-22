@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   
+</head>
+<body>
+    <h1>90's Kid Random Trivia Game</h1>
+<form id="quiz" name="quiz">
+    <p> How many people were in the jackson 5?</p>
+    <input id="textbox" type="text" name="question1">
+    
+    
+    <p> What year was the shoe brand Vans Created?</p>
+    <input type="radio" id="mc" name="question2" value="1999">1999 <br>
+    <input type="radio" id="mc" name="question2" value="1900">1900 <br>
+    <input type="radio" id="mc" name="question2" value="1996">1996 <br>
+    <input type="radio" id="mc" name="question2" value="1966">1966 <br>
+    
+
+    <p> what team did Bill Murrey play for?</p>
+    <input type="radio" id="mc" name="question3" value="Lakers">Lakers<br>
+    <input type="radio" id="mc" name="question3" value="Tune Squad"> Tune Squad<br>
+    <input type="radio" id="mc" name="question3" value="Bulls"> Bulls<br>
+    <input type="radio" id="mc" name="question3" value="Packers"> Packers<br>
+
+    <p> How Many Penny's are in a Quarter?</p>
+    <input type="radio" id="mc" name="question4" value="10">10<br>
+    <input type="radio" id="mc" name="question4" value="11"> 11<br>
+    <input type="radio" id="mc" name="question4" value="12"> 12<br>
+    <input type="radio" id="mc" name="question4" value="25"> 25<br>
+
+    <p> How many scoops are in a double scoop of ice cream?</p>
+    <input type="radio" id="mc" name="question5" value="6">6<br>
+    <input type="radio" id="mc" name="question5" value="5"> 5<br>
+    <input type="radio" id="mc" name="question5" value="3"> 3<br>
+    <input type="radio" id="mc" name="question5" value="2"> 2<br>
+
+
+
+    
+    
+    
+    <input id="button" type="button" value="Its Over Baby" onclick="check();">
+
+
+
+</form>
+
+<div id= "after_submit">
+<p id=" number_correct"></p>
+
+</div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

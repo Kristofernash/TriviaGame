@@ -1,0 +1,42 @@
+var questions = [
+{
+    prompt: "What Year Did Vans Originate?\n(a) March 3,1961\n\
+    (b) February 2,1988\n(c) March 16,1966",
+    answer:"c"
+},
+{
+    prompt:"Who Landed the first 900 in X game History?\n(a) Shaun White\n\
+    (b)Tony Hawk\n(c)travis pastrana",
+    answer:"b"
+   
+},
+{
+    prompt:"What Color was Marlin Monroe Hair?\n(a)blone\n\
+    (b) red\n(c) grey",
+
+    answer:"a",
+
+},
+
+{
+    prompt:"what group was Jesse Rutherford in before the neighborhood?\n(a)raw flo\n\
+    (b)the good boys\n(c)the beach boys ",
+
+    answer:"b",
+
+}
+]
+var score=0;
+
+for(var i=0; i< questions.length;i++){
+    var response=window.prompt(questions[i].prompt);
+    if(response==questions[i].answer){
+         score ++;
+        alert("Correct!");
+    } else{
+        alert("WRONG!");
+    }
+
+   
+
+}
